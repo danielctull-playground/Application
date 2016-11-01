@@ -22,6 +22,38 @@
 		6301ADC51DC895CA006A1E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6301ADC81DC895CA006A1E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6301ADCA1DC895CA006A1E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6301ADD21DC89627006A1E7E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		6301ADD51DC89627006A1E7E /* iOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Application.xcconfig"; sourceTree = "<group>"; };
+		6301ADD61DC89627006A1E7E /* iOS Bundle.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Bundle.xcconfig"; sourceTree = "<group>"; };
+		6301ADD71DC89627006A1E7E /* iOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Extension.xcconfig"; sourceTree = "<group>"; };
+		6301ADD81DC89627006A1E7E /* iOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Framework.xcconfig"; sourceTree = "<group>"; };
+		6301ADD91DC89627006A1E7E /* iOS Static Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Static Library.xcconfig"; sourceTree = "<group>"; };
+		6301ADDA1DC89627006A1E7E /* iOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Tests.xcconfig"; sourceTree = "<group>"; };
+		6301ADDB1DC89627006A1E7E /* iOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS UI Tests.xcconfig"; sourceTree = "<group>"; };
+		6301ADDC1DC89627006A1E7E /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		6301ADDE1DC89627006A1E7E /* macOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Application.xcconfig"; sourceTree = "<group>"; };
+		6301ADDF1DC89627006A1E7E /* macOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Extension.xcconfig"; sourceTree = "<group>"; };
+		6301ADE01DC89627006A1E7E /* macOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Framework.xcconfig"; sourceTree = "<group>"; };
+		6301ADE11DC89627006A1E7E /* macOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Tests.xcconfig"; sourceTree = "<group>"; };
+		6301ADE21DC89627006A1E7E /* macOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS UI Tests.xcconfig"; sourceTree = "<group>"; };
+		6301ADE31DC89627006A1E7E /* macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
+		6301ADE41DC89627006A1E7E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		6301ADE61DC89627006A1E7E /* Shared Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Application.xcconfig"; sourceTree = "<group>"; };
+		6301ADE71DC89627006A1E7E /* Shared Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Extension.xcconfig"; sourceTree = "<group>"; };
+		6301ADE81DC89627006A1E7E /* Shared Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Framework.xcconfig"; sourceTree = "<group>"; };
+		6301ADE91DC89627006A1E7E /* Shared Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Tests.xcconfig"; sourceTree = "<group>"; };
+		6301ADEA1DC89627006A1E7E /* Shared UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared UI Tests.xcconfig"; sourceTree = "<group>"; };
+		6301ADEB1DC89627006A1E7E /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		6301ADED1DC89627006A1E7E /* tvOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Application.xcconfig"; sourceTree = "<group>"; };
+		6301ADEE1DC89627006A1E7E /* tvOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Extension.xcconfig"; sourceTree = "<group>"; };
+		6301ADEF1DC89627006A1E7E /* tvOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Framework.xcconfig"; sourceTree = "<group>"; };
+		6301ADF01DC89627006A1E7E /* tvOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Tests.xcconfig"; sourceTree = "<group>"; };
+		6301ADF11DC89627006A1E7E /* tvOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS UI Tests.xcconfig"; sourceTree = "<group>"; };
+		6301ADF21DC89627006A1E7E /* tvOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = tvOS.xcconfig; sourceTree = "<group>"; };
+		6301ADF41DC89627006A1E7E /* watchOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Application.xcconfig"; sourceTree = "<group>"; };
+		6301ADF51DC89627006A1E7E /* watchOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Extension.xcconfig"; sourceTree = "<group>"; };
+		6301ADF61DC89627006A1E7E /* watchOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Framework.xcconfig"; sourceTree = "<group>"; };
+		6301ADF71DC89627006A1E7E /* watchOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = watchOS.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				6301ADBD1DC895CA006A1E7E /* Application */,
+				6301ADD01DC89627006A1E7E /* Configurations */,
 				6301ADBC1DC895CA006A1E7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +95,85 @@
 				6301ADCA1DC895CA006A1E7E /* Info.plist */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		6301ADD01DC89627006A1E7E /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				6301ADD21DC89627006A1E7E /* Debug.xcconfig */,
+				6301ADE41DC89627006A1E7E /* Release.xcconfig */,
+				6301ADD41DC89627006A1E7E /* iOS */,
+				6301ADDD1DC89627006A1E7E /* macOS */,
+				6301ADE51DC89627006A1E7E /* Shared */,
+				6301ADEC1DC89627006A1E7E /* tvOS */,
+				6301ADF31DC89627006A1E7E /* watchOS */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		6301ADD41DC89627006A1E7E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6301ADD51DC89627006A1E7E /* iOS Application.xcconfig */,
+				6301ADD61DC89627006A1E7E /* iOS Bundle.xcconfig */,
+				6301ADD71DC89627006A1E7E /* iOS Extension.xcconfig */,
+				6301ADD81DC89627006A1E7E /* iOS Framework.xcconfig */,
+				6301ADD91DC89627006A1E7E /* iOS Static Library.xcconfig */,
+				6301ADDA1DC89627006A1E7E /* iOS Tests.xcconfig */,
+				6301ADDB1DC89627006A1E7E /* iOS UI Tests.xcconfig */,
+				6301ADDC1DC89627006A1E7E /* iOS.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6301ADDD1DC89627006A1E7E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6301ADDE1DC89627006A1E7E /* macOS Application.xcconfig */,
+				6301ADDF1DC89627006A1E7E /* macOS Extension.xcconfig */,
+				6301ADE01DC89627006A1E7E /* macOS Framework.xcconfig */,
+				6301ADE11DC89627006A1E7E /* macOS Tests.xcconfig */,
+				6301ADE21DC89627006A1E7E /* macOS UI Tests.xcconfig */,
+				6301ADE31DC89627006A1E7E /* macOS.xcconfig */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6301ADE51DC89627006A1E7E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6301ADE61DC89627006A1E7E /* Shared Application.xcconfig */,
+				6301ADE71DC89627006A1E7E /* Shared Extension.xcconfig */,
+				6301ADE81DC89627006A1E7E /* Shared Framework.xcconfig */,
+				6301ADE91DC89627006A1E7E /* Shared Tests.xcconfig */,
+				6301ADEA1DC89627006A1E7E /* Shared UI Tests.xcconfig */,
+				6301ADEB1DC89627006A1E7E /* Shared.xcconfig */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6301ADEC1DC89627006A1E7E /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				6301ADED1DC89627006A1E7E /* tvOS Application.xcconfig */,
+				6301ADEE1DC89627006A1E7E /* tvOS Extension.xcconfig */,
+				6301ADEF1DC89627006A1E7E /* tvOS Framework.xcconfig */,
+				6301ADF01DC89627006A1E7E /* tvOS Tests.xcconfig */,
+				6301ADF11DC89627006A1E7E /* tvOS UI Tests.xcconfig */,
+				6301ADF21DC89627006A1E7E /* tvOS.xcconfig */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		6301ADF31DC89627006A1E7E /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				6301ADF41DC89627006A1E7E /* watchOS Application.xcconfig */,
+				6301ADF51DC89627006A1E7E /* watchOS Extension.xcconfig */,
+				6301ADF61DC89627006A1E7E /* watchOS Framework.xcconfig */,
+				6301ADF71DC89627006A1E7E /* watchOS.xcconfig */,
+			);
+			path = watchOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,116 +277,33 @@
 /* Begin XCBuildConfiguration section */
 		6301ADCB1DC895CA006A1E7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6301ADD21DC89627006A1E7E /* Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6301ADCC1DC895CA006A1E7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6301ADE41DC89627006A1E7E /* Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		6301ADCE1DC895CA006A1E7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6301ADD51DC89627006A1E7E /* iOS Application.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Application/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.danieltull.Application;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6301ADCF1DC895CA006A1E7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6301ADD51DC89627006A1E7E /* iOS Application.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Application/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.danieltull.Application;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -297,6 +326,7 @@
 				6301ADCF1DC895CA006A1E7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
