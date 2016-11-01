@@ -12,7 +12,40 @@
 		6301ADC41DC895CA006A1E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6301ADC21DC895CA006A1E7E /* Main.storyboard */; };
 		6301ADC61DC895CA006A1E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6301ADC51DC895CA006A1E7E /* Assets.xcassets */; };
 		6301ADC91DC895CA006A1E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6301ADC71DC895CA006A1E7E /* LaunchScreen.storyboard */; };
+		6301ADFE1DC8971F006A1E7E /* Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6301ADFD1DC896F1006A1E7E /* Framework.framework */; };
+		6301ADFF1DC8971F006A1E7E /* Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6301ADFD1DC896F1006A1E7E /* Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6301ADFC1DC896F1006A1E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6301ADF81DC896F1006A1E7E /* Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6301AD7B1DC8938B006A1E7E;
+			remoteInfo = Framework;
+		};
+		6301AE001DC8971F006A1E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6301ADF81DC896F1006A1E7E /* Framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6301AD7A1DC8938B006A1E7E;
+			remoteInfo = Framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6301AE021DC8971F006A1E7E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6301ADFF1DC8971F006A1E7E /* Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6301ADBB1DC895CA006A1E7E /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +87,7 @@
 		6301ADF51DC89627006A1E7E /* watchOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Extension.xcconfig"; sourceTree = "<group>"; };
 		6301ADF61DC89627006A1E7E /* watchOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Framework.xcconfig"; sourceTree = "<group>"; };
 		6301ADF71DC89627006A1E7E /* watchOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = watchOS.xcconfig; sourceTree = "<group>"; };
+		6301ADF81DC896F1006A1E7E /* Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Framework.xcodeproj; path = Framework/Framework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6301ADFE1DC8971F006A1E7E /* Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +107,7 @@
 			children = (
 				6301ADBD1DC895CA006A1E7E /* Application */,
 				6301ADD01DC89627006A1E7E /* Configurations */,
+				63640DA41DC89BBF00CC8359 /* Frameworks */,
 				6301ADBC1DC895CA006A1E7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,6 +212,22 @@
 			path = watchOS;
 			sourceTree = "<group>";
 		};
+		6301ADF91DC896F1006A1E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6301ADFD1DC896F1006A1E7E /* Framework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63640DA41DC89BBF00CC8359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6301ADF81DC896F1006A1E7E /* Framework.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,10 +238,12 @@
 				6301ADB71DC895CA006A1E7E /* Sources */,
 				6301ADB81DC895CA006A1E7E /* Frameworks */,
 				6301ADB91DC895CA006A1E7E /* Resources */,
+				6301AE021DC8971F006A1E7E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6301AE011DC8971F006A1E7E /* PBXTargetDependency */,
 			);
 			name = Application;
 			productName = Application;
@@ -223,12 +277,28 @@
 			mainGroup = 6301ADB21DC895CA006A1E7E;
 			productRefGroup = 6301ADBC1DC895CA006A1E7E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6301ADF91DC896F1006A1E7E /* Products */;
+					ProjectRef = 6301ADF81DC896F1006A1E7E /* Framework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6301ADBA1DC895CA006A1E7E /* Application */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6301ADFD1DC896F1006A1E7E /* Framework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Framework.framework;
+			remoteRef = 6301ADFC1DC896F1006A1E7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6301ADB91DC895CA006A1E7E /* Resources */ = {
@@ -254,6 +324,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6301AE011DC8971F006A1E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Framework;
+			targetProxy = 6301AE001DC8971F006A1E7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6301ADC21DC895CA006A1E7E /* Main.storyboard */ = {
@@ -297,6 +375,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6301ADD51DC89627006A1E7E /* iOS Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 			};
 			name = Debug;
 		};
@@ -304,6 +384,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6301ADD51DC89627006A1E7E /* iOS Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 			};
 			name = Release;
 		};
